@@ -15,8 +15,10 @@ Welcome to the Restaurant Recommendation System! This project leverages data fro
 * Feature Selection: Focused on key attributes such as ratings, votes, cuisines, and location for meaningful recommendations.
 * Sample Data: Due to the large dataset size, I selected a manageable subset (40%) for analysis and modeling.
 
-## Overall Summary from EDA
-### Summary of Descriptive Statistics
+## 📊 Exploratory Data Analysis (EDA)
+The EDA phase revealed valuable insights
+### Overall Summary from EDA
+#### Summary of Descriptive Statistics
 Ratings Distribution:
 * Over 75% of restaurants have ratings greater than 3 stars, with the maximum rating reaching 4.9 stars.
 * Some restaurants appear to have unusually high ratings, such as one with 16,832 votes, which raises questions about data accuracy or potential outliers.
@@ -34,7 +36,7 @@ Location and Cost Correlation:
 * Dining costs generally increase in central or upscale locations, while suburban or less commercialized areas (e.g., Hennur) maintain lower and more consistent costs.
 * There’s a strong relationship between location and dining costs, with specific neighborhoods being associated with certain cuisines.
 
-### Insights on Cuisine and Location
+#### Insights on Cuisine and Location
 
 * Popular Cuisines by Type:
   * North Indian: BTM, Marathahalli, HSR, Whitefield, JP Nagar
@@ -59,7 +61,7 @@ Location and Cost Correlation:
   * Byg Brewski Brewing Company: 4.9 stars
   * Punjab Grill: 4.875 stars
 
-### General Observations
+#### General Observations
 
 * Dining Trends: The data indicates that certain cuisines are consistently associated with specific locations, suggesting that restaurant type preferences vary by neighborhood. BTM and HSR are repeatedly listed as top locations across multiple cuisines, indicating their popularity or centrality in the dining landscape.
 * Cost Implications: Higher dining costs are likely correlated with more upscale areas, and recommendations should consider both popularity (votes) and quality (ratings) to provide a balanced view.
