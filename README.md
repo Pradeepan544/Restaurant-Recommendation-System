@@ -9,6 +9,9 @@ Welcome to the Restaurant Recommendation System! This project leverages data fro
 * Exploratory Data Analysis (EDA): Conducted thorough EDA to uncover insights and trends in restaurant ratings, cuisines, and dining costs.
 * Efficiency: Used only 40% of the dataset to ensure optimal performance without compromising the quality of recommendations.
 
+## Dataset
+The Dataset used for the recommender system is taken from Kaggle: Zomato Bangalore Dataset. Users can refer the link to download use it: https://www.kaggle.com/datasets/absin7/zomato-bangalore-dataset/data
+
 ## 🔍 Data Preprocessing
 * Data preprocessing is a crucial step in any data-driven project. Here’s how I approached it:
 * Initial Cleaning: Removed duplicates, handled missing values, and ensured data consistency.
